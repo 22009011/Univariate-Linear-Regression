@@ -34,8 +34,8 @@ b=y_mean-(m*x_mean)
 print(m,b) 
 y_pred=(m*x)+b
 print(y_pred)
-py.scatter(x,y,color='red')
-py.plot(x,y_pred,color="black")
+py.scatter(x,y,color='blue')
+py.plot(x,y_pred,color="#CD5555")
 py.show()
 
 
@@ -43,7 +43,8 @@ py.show()
 
 ```
 ## Output
-![image](https://github.com/22009011/Univariate-Linear-Regression/assets/118343461/d6fbc6b1-03de-478a-81ee-72eedc14defa)
+![image](https://github.com/22009011/Univariate-Linear-Regression/assets/118343461/d8973240-1a41-431f-bd9a-683cc8dfc3e0)
+
 
 ## Result
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares.
